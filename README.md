@@ -30,9 +30,9 @@ This class contains the logic for determining the service amount. It evaluates c
 - Replacement_Parts__c
 
 Based on the selected services, it assigns the calculated value to the Service_Amount__c field.
-[ApexClass Code](main/ApexClass.java)
+[ApexClass Code](/ApexClass.java)
 
 ### Trigger: AmountDistribution
 This trigger executes before inserting or updating records in the Appointment__c object. It calls the AmountDistributionHandler class to assign the service amount dynamically.
 
-[ApexTrigger Code](main/ApexTrigger.java)
+[ApexTrigger Code](/ApexTrigger.java)
